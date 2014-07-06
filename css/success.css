@@ -1,0 +1,46 @@
+/* PO Informatica
+   Pizzeria Cosa Nostra
+
+   Sven Popping, Bouke Regnerus
+*/
+/* Success Stylesheet
+*/
+* {
+    margin: 0; padding: 0;
+    font-size: 12px;
+    border: 0 none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans serif;
+    outline: none;
+}
+:focus { -moz-outline-style: none } /*Gestippelde border in Mozilla wordt weg gehaald.*/
+body {
+	background: #d0c1a6 url('../images/menu/background.png') repeat 0 0
+}
+h1 {
+	font-size: 30px;
+	width: 380px;
+	margin: 120px auto 10px;
+	font-weight: bold;
+}
+div {
+	width: 300px;
+	padding: 40px;
+	border: 1px solid #a69980;
+	margin: 0 auto;
+	background-color: #fff;
+}
+p {
+	font-size: 12px;
+	margin: 10px 0;
+}
+h2 {
+	font-size: 18px;
+	margin: 10px 0;
+	font-weight: bold;
+}
+h3 {
+	font-size: 18px;
+	margin: 60px 0 10px;
+	font-weight: bold;
+	text-align: center;
+}

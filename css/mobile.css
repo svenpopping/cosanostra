@@ -1,0 +1,237 @@
+/* PO Informatica
+   Pizzeria Cosa Nostra
+
+   Sven Popping, Bouke Regnerus
+*/
+/* Mobile Stylesheet
+*/
+* {
+    margin: 0; padding: 0;
+    font-size: 12px;
+    border: 0 none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans serif;
+    outline: none;
+    overflow: hidden;
+    -webkit-text-size-adjust: none;
+}
+#nav-bar {
+	height: 44px;
+	display: block;
+	background-image: url('../images/mobile/sprite.png');
+	background-position: 0 0;
+	background-repeat: repeat-x;
+	position: relative;
+}
+#nav-bar h1 {
+	margin: 0;
+	padding: 10px;
+	line-height: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: rgba(0, 0, 0, 0.6) 0px -1px 0;
+	text-overflow: ellipsis;
+	color: #FFFFFF;
+}
+#nav-bar a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#nav-bar .back {
+	text-indent: 99999px;
+	height: 30px;
+	width: 50px;
+	display: block;
+	background-image: url('../images/mobile/sprite.png');
+	background-position: 0 -74px;
+	background-repeat: repeat-x;
+	position: absolute;
+	left: 10px;
+	top: 7px;
+}
+#nav-bar .logout {
+	text-indent: 99999px;
+	height: 30px;
+	width: 65px;
+	display: block;
+	background-image: url('../images/mobile/sprite.png');
+	background-position: 0 -44px;
+	background-repeat: repeat-x;
+	position: absolute;
+	right: 10px;
+	top: 7px;
+}
+
+#indetail .header {
+	height: 61px;
+	display: block;
+	position: relative;
+	background-image: url('../images/mobile/sprite.png');
+	background-position: 0 -159px;
+	background-repeat: repeat-x;
+}
+#indetail .header h2 {
+	left: 10px;
+	position: absolute;
+	padding: 20px 0;
+	font-size: 14px;
+	font-weight: bold;
+	text-shadow: rgba(255, 255, 255, 0.6) 0px 1px 0;
+	text-overflow: ellipsis;
+	color: #000000;
+}
+#indetail .header .timeago {
+	right: 10px;
+	position: absolute;
+	padding: 20px 0;
+	font-size: 14px;
+	font-weight: normal;
+	text-shadow: rgba(255, 255, 255, 0.6) 0px 1px 0;
+	text-overflow: ellipsis;
+	color: #a69980;
+}
+#indetail .arrow {
+	height: 26px;
+	width: 50px;
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-image: url('../images/mobile/sprite.png');
+	background-position: 0 -133px;
+	background-repeat: repeat-x;
+}
+
+#content {
+	margin: 0 10px;
+}
+#content p{
+	font-size: 16px;
+	margin: 20px 0;
+}
+#content p .opmerking {
+	font-size: 14px;
+	font-weight: normal;
+	color: #777;
+}
+#content .map, #content .map img{
+	width: 300px;
+	height: 60px;
+	-webkit-border-radius: 5px; /* Saf3+, Chrome */
+	border-radius: 5px; /* Opera 10.5, IE 9 */
+}
+#content .location {
+	padding: 10px 0;
+	font-size: 14px;
+	font-weight: normal;
+	color: #777777;
+}
+
+#voltooien {
+	position: relative;
+	margin: 30px 10px;
+}
+#voltooien .totaal-prijs {
+	font-size: 16px;
+}
+#voltooien .btn-voltooien {
+	height: 16px;
+	padding: 3px 10px;
+	color: #000;
+	text-decoration: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: url('../images/mobile/sprite.png') repeat-x 0 -105px;
+	border: 1px solid #777;
+	overflow: hidden;
+	float: right;
+}
+
+#list {
+    margin: 0;
+    padding: 0;
+}
+#list li {
+    margin: 0;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 0;
+    background: url('../images/mobile/arrow.png') no-repeat right center;
+    
+    list-style: none;
+}
+#list li a {
+    display: block;
+    padding: 8px 32px 8px 8px;
+    text-decoration: none;
+    color: inherit;
+}
+#list li a p {
+	font-size: 20px;
+	font-weight: bold;
+}
+#list li a span {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.login form {
+	padding: 40px 10px;
+	margin: 0 auto;
+}
+.login form .input,
+.login form .password {
+    width: 256px;
+    margin: 5px 0; padding: 10px 20px;
+    font-size: 14px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background: url('../images/sprite.png') repeat-x 0 -128px;
+    border: 1px solid #aaa;
+}
+.login form .btn-login {
+    float: right;
+    height: 40px; width: 220px;
+    margin: 20px 0;
+    background: url('../images/sprite.png') no-repeat 0 -372px;
+    border: 0 none;
+    cursor: pointer;
+    text-indent: -1000px;
+}
+
+.bubble {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+.bubble img {
+	float: left;
+	width: 57px;
+	height: 57px;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+	margin-right: 10px;
+}
+.bubble p {
+	position: relative;
+	width: 214px;
+	margin: 0 auto;
+	margin-top: 5px;
+	border: 2px solid #fff;
+	padding: 20px 20px 20px 10px;
+	-webkit-border-radius: 8px;
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+	-webkit-background-size: 100% 8px;
+	background-color: #b0c8ec;
+	background: #cddcf3 -webkit-gradient(linear, left bottom, left top, from(#b3caed), to(#cddcf3)) no-repeat bottom;
+	font: 13px/17px sans-serif;
+}
+.bubble .arrow {
+	width: 25px;
+	height: 19px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: -2px;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAATCAMAAABSrFY3AAABKVBMVEUAAAD///8AAAAAAAAAAAAAAAAAAADf398AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD09PQAAAAAAAAAAAC9vb0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD19fUAAAAAAAAAAAAAAADq6uoAAAAAAAAAAAC8vLzU1NTT09MAAADg4OAAAADs7OwAAAAAAAAAAAD///+cueenwerA0vC1y+3a5fb5+/3t8vr4+v3w9PuwyOy3zO3h6vfh6vjq8Pqkv+mat+fE1fHB0/Cduuifu+iuxuuivemrxOvC1PDz9vzJ2fKpwuqmwOrb5vapw+q/0vDf6ffK2vLN3PPprJISAAAAQHRSTlMAAAEGExES7FM+JhUoQSxIRwMbNfkJUgXXBE4kDQIMHSA0Tw4xIToeTSc4Chz4OyIjPfI3QD/X5OZR6zzwLSUPrm1y3gAAAQZJREFUeF5lzsVyw0AURNE3IMsgmZmZgszQZoeZOf//EYlG5Yrhbs+im4Dj7slM5wBJ4OJ+undAUr68gK/Hyb6Bcp5yBR/w8jreNeAr5Eg2XE7g6e2/0z6cGw1JQhpmHP3u5aiPPnTTkIK48Hj9Op7bD3btAXTfgUdwYjwSDCVXMbizO0O4uDY/x4kYC5SWFnfC6N1a9RCO7i2XEmQJj2mHK1Hgp9Vq3QBRl9shuBLGhcNtHexcdQCnDUoUGetxDD+H2DQNG2xh6uAWgG2/17o1EmLqYH0Xej0UjHAaFxZIV6rJ/WK1kg7QZH8HU02zmdJinKZJaDV3TVMjM5Q9yiqYpUwiMwa/1apDXTNESjsAAAAASUVORK5CYII=');
+	display: block;
+}

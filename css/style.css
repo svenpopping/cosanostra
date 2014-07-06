@@ -1,0 +1,124 @@
+/* PO Informatica
+   Pizzeria Cosa Nostra
+
+   Sven Popping, Bouke Regnerus
+*/
+/* Basic Style and Typography Rules
+*/
+* {
+    margin: 0; padding: 0;
+    font-size: 12px;
+    border: 0 none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans serif;
+    outline: none;
+}
+:focus { -moz-outline-style: none } /*Gestippelde border in Mozilla wordt weg gehaald.*/
+
+.pagecut-top {
+    display: block; position: absolute;
+    top: 0;
+    height: 10px; width: 100%;
+    background: url('../images/sprite.png') 0 -214px repeat-x
+}
+.pagecut-bottom {
+    display: block; position: absolute;
+    bottom: 0;
+    height: 10px; width: 100%;
+    background: url('../images/sprite.png') 0 -204px repeat-x
+}
+.shadow-top {
+    display: block; position: absolute;
+    top: -5px;
+    height: 5px; width: 100%;
+    background: url('../images/sprite.png') 0 -224px repeat-x
+}
+.shadow-bottom {
+    display: block; position: absolute;
+    bottom: -5px;
+    height: 5px; width: 100%;
+    background: url('../images/sprite.png') 0 -229px repeat-x
+}
+
+.icon-small {
+    display: block; float: left;
+    height: 16px; width: 16px;
+    margin: 0 3px 0 0;
+    background-image: url('../images/sprite.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.icon-large {
+    display: block; float: left;
+    height: 24px; width: 24px;
+    margin: 0 5px 0 0;
+    background-image: url('../images/sprite.png');
+    background-position: -16px 0;
+    background-repeat: no-repeat;
+}
+
+.content {
+    display: block;
+    height: auto; width: 960px;
+    padding: 0 10px; margin: 0 auto
+}
+.clear { clear: both }
+
+.btn-gray {
+    float: left;
+    padding: 3px 10px;
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: url('../images/sprite.png') repeat-x 0 -84px;
+    border: 1px solid #777;
+    overflow: hidden;
+}
+.btn-yellow {
+    display: block; position: absolute;
+    margin: 5px 0; padding: 3px 10px;
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: url('../images/sprite.png') repeat-x 0 -106px;
+    border: 1px solid #e2ad24;
+    overflow: hidden;
+}
+
+.input,
+.password {
+    width: 418px;
+    margin: 5px 0; padding: 10px 20px;
+    font-size: 14px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: url('../images/sprite.png') repeat-x 0 -128px;
+    border: 1px solid #aaa;
+}
+.straat {
+    width: 305px;
+    float: left;
+}
+.huisnr {
+    width: 60px;
+    margin: 5px 0 5px 10px;
+}
+.postcode {
+    width: 97px;
+    margin: 5px 0; padding:
+}
+.woonplaats {
+    width: 265px;
+    margin: 5px 0 5px 10px;
+}
+.password-small,
+.password-repeat {
+    width: 181px;
+}
+.password-repeat { margin-left: 10px }
